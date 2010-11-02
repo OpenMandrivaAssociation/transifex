@@ -5,7 +5,7 @@ Version:    1.0.0
 Release:    %mkrel 1
 Summary:    A system for distributed translation submissions
 
-Group:      Applications/Internet
+Group:      Networking/WWW
 License:    GPLv2
 URL:        http://transifex.org
 Source0:    transifex-%version.tar.gz
@@ -51,7 +51,7 @@ translations in remote and disparate version control systems (VCS).
 
 %package extras
 Summary:    Additional support for Transifex
-Group:      Applications/Internet
+Group:      Networking/WWW
 Requires:   transifex = %{version}
 Requires:   cvs 
 Requires:   python-svn 
@@ -193,5 +193,3 @@ EOF
     sed -i -e "s!\[\[SECRETKEY\]\]!$key!" \
         %{confdir}/10-base.conf
 fi
-
-
