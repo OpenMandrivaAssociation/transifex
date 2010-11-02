@@ -26,6 +26,16 @@ BuildRequires:  python-django-south > 0.7
 BuildRequires:  python-django-piston
 BuildRequires:  python-django-authority 
 BuildRequires:  python-django-ajax-selects
+BuildRequires:	python-django-filter
+BuildRequires:	python-django-sorting
+BuildRequires:	python-django-tagging
+BuildRequires:	python-django-piston
+BuildRequires:	python-django-threadedcomments
+BuildRequires:	python-django-staticfiles
+BuildRequires:	python-django-addons
+BuildRequires:	python-markdown
+BuildRequires:	python-magic
+BuildRequires:	python-polib
 
 Requires:   mercurial >= 1.3 
 Requires:   python-urlgrabber 
