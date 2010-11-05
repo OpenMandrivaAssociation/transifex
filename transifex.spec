@@ -58,6 +58,7 @@ Requires:   python-django-addons
 Requires:   python-django-threadedcomments
 Requires:   python-django-sorting
 Requires:   python-googlechart
+Requires:   python-magic
 
 %description
 Transifex is a web-system that facilitates the process of submitting
