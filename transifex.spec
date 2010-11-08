@@ -185,6 +185,7 @@ sh my-find-lang.sh $RPM_BUILD_ROOT django transifex.lst
 cat > README.urpmi <<EOF
 To finish the initialization of transifex you will need to go on %{_datadir}/%{name}
 ./manage.py txcreatedirs
+./manage.py txcreatenoticetypes
 ./manage.py syncdb --noinput
 ./manage.py migrate
 
