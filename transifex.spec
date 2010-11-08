@@ -16,7 +16,7 @@ BuildArch:  noarch
 BuildRequires:  python-sphinx 
 BuildRequires:  gettext 
 BuildRequires:  python-markdown
-BuildRequires:  python-django 
+BuildRequires:  python-django  >= 1.2.3
 BuildRequires:  python-django-contact-form 
 BuildRequires:  python-django-pagination 
 BuildRequires:  python-django-tagging
@@ -79,7 +79,6 @@ Requires:   git
 %doc README.urpmi
 %dir %{confdir}
 %config(noreplace) %{confdir}/10-base.conf
-%config(noreplace) %{confdir}/20-engines.conf
 %config(noreplace) %{confdir}/30-site.conf
 %config(noreplace) %{confdir}/40-apps.conf
 %config(noreplace) %{confdir}/50-project.conf
