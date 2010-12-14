@@ -41,7 +41,7 @@ Requires:   intltool >= 0.37.1
 Requires:   python-markdown 
 Requires:   python-pygments 
 Requires:   python-polib >= 0.4.2
-Requires:   python-django 
+Requires:   python-django >= 1.2.0
 Requires:   python-django-contact-form 
 Requires:   python-django-pagination 
 Requires:   python-django-tagging
