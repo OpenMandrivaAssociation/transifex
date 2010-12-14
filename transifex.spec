@@ -19,7 +19,6 @@ BuildRequires:  python-markdown
 BuildRequires:  python-django  >= 1.2.3
 BuildRequires:  python-django-contact-form 
 BuildRequires:  python-django-pagination 
-BuildRequires:  python-django-tagging
 BuildRequires:  python-django-notification 
 BuildRequires:  python-django-profile 
 BuildRequires:  python-django-south > 0.7
@@ -33,7 +32,6 @@ BuildRequires:	python-django-piston
 BuildRequires:	python-django-threadedcomments
 BuildRequires:	python-django-staticfiles
 BuildRequires:	python-django-addons
-BuildRequires:	python-markdown
 BuildRequires:	python-magic
 BuildRequires:	python-polib
 
