@@ -2,7 +2,7 @@
 
 Name:       transifex
 Version:    1.0.0
-Release:    %mkrel 2
+Release:    %mkrel 3
 Summary:    A system for distributed translation submissions
 
 Group:      Networking/WWW
@@ -59,6 +59,7 @@ Requires:   python-django-threadedcomments
 Requires:   python-django-sorting
 Requires:   python-googlechart
 Requires:   python-magic
+Requires:   python-django-filter
 
 %description
 Transifex is a web-system that facilitates the process of submitting
