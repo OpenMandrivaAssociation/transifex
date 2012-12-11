@@ -1,0 +1,14 @@
+import os.path
+import glob
+
+try:
+      TX_ROOT
+except NameError:
+      TX_ROOT = os.path.dirname(__file__)
+
+conffiles = glob.glob(os.path.join('[[confpath]]', '*.conf'))
+
+conffiles.sort()
+
+for f in conffiles:
+    execfile(f)

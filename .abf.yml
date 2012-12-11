@@ -1,3 +1,3 @@
 sources:
-  "django-settings.py.in:"	9f82c439b84cbe2f09c3dd839e0e5f24c8e346ac
-  "transifex-1.0.0.tar.gz:"	b04d06beed6ee4b9b5dd8b0972d42e17dbdfdf4e
+  "transifex-1.0.0.tar.gz": b04d06beed6ee4b9b5dd8b0972d42e17dbdfdf4e
+  transifex-1.2.1.tar.gz: c6a88f7c2bb9de38745d47698b2fc8bc4b9d2481
