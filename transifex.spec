@@ -2,7 +2,7 @@
 
 Name:       transifex
 Version:    1.2.1
-Release:    %mkrel 3
+Release:    4
 Summary:    A system for distributed translation submissions
 
 Group:      Networking/WWW
