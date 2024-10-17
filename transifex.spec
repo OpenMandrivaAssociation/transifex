@@ -7,7 +7,7 @@ Summary:    A system for distributed translation submissions
 
 Group:      Networking/WWW
 License:    GPLv2
-URL:        http://transifex.org
+URL:        https://transifex.org
 Source0:    transifex-%version.tar.gz
 Source1:    django-settings.py.in
 BuildArch:  noarch
